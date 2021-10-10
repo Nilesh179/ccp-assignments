@@ -6,20 +6,13 @@ int main()
   float b;
   char c;
 
-  // Input Step
-  printf("Enter an integer: ");
+  printf("Enter an integer value : ");
   scanf("%d", &a);
-  printf("Enter a float: ");
+  printf("Enter a float value: ");
   scanf("%f", &b);
-  printf("Enter a char: ");
-  // workaround to scanf [char] for gcc & clang
-  // [space] before [format specifier]
+  printf("Enter a character value : ");
   scanf(" %c", &c);
 
-  // Output Step
-  // appending [.2] before [f]
-  // limits number of significant
-  // digits to 2
   printf("Integer: %d, Float: %.2f, Char: %c\n", a, b, c);
 
   return 0;
