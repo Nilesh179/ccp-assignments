@@ -16,7 +16,7 @@ int main()
   }
   else
   {
-    printf("Its a zero.\n");
+    printf("%d is equal to zero.\n");
   }
 
   return 0;
